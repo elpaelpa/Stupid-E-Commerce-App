@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local database files (regenerate from schema.sql / seed.sql)
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Secrets / environment config
+.env
+.flaskenv
+
+# Editors & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Reference (documents from class)
+reference/
